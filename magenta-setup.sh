@@ -1,7 +1,7 @@
 # https://github.com/magenta/magenta/blob/master/README.md
 
 sudo apt-get install build-essential libasound2-dev libjack-dev portaudio19-dev
-pip3 install magenta setuptools scikit-build
+pip3 install magenta setuptools scikit-build python-rtmidi note_seq
 
 # consult compatibility matrix for the version you need:
 # https://github.com/tensorflow/addons#python-op-compatibility-matrix

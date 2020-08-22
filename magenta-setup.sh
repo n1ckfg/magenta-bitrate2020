@@ -1,13 +1,11 @@
 # https://github.com/magenta/magenta/blob/master/README.md
 
 sudo apt-get install build-essential libasound2-dev libjack-dev portaudio19-dev
-pip3 install magenta setuptools scikit-build python-rtmidi note_seq colorama tensorflow
-
-# consult compatibility matrix for the version you need:
-# https://github.com/tensorflow/addons#python-op-compatibility-matrix
-# https://github.com/tensorflow/addons/issues/222
-# https://stackoverflow.com/questions/59102460/install-tensorflow-addons
-pip3 install tensorflow-addons-0.9.1
+python3 -m pip install --upgrade pip
+pip3 install setuptools scikit-build python-rtmidi note_seq colorama 
+pip3 install tensorflow==1.15.0 tensorflow-addons
+pip3 install tensorflow-probability==0.7.0 absl.py==0.8
+pip3 install magenta 
 
 cd ..
 git clone https://github.com/tensorflow/magenta.git

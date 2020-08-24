@@ -4,8 +4,8 @@
 
 # 2. If you don't have CUDA, you can use the installer scripts provided.
 
-bash ./scripts/magenta-install.sh
-bash ./scripts/magenta-js-install.sh
+bash ./scripts/setup/magenta-install.sh
+bash ./scripts/setup/magenta-js-install.sh
 
 cd ..
 git clone https://github.com/magenta/magenta.git

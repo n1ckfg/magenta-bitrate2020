@@ -1,3 +1,5 @@
+# https://magenta.github.io/magenta-js/music/#model-checkpoints
+
 INPUT_DIR=output/checkpoints/v002/model.ckpt-85541
 OUTPUT_DIR=output
 SCRIPT_PATH=scripts/checkpoint_converter.py

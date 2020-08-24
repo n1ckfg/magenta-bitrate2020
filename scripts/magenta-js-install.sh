@@ -99,7 +99,7 @@ if [[ $(conda info --envs | grep "*" | awk '{print $1}') != "magenta-js" ]]; the
 fi
 
 # Install other dependencies
-pip install jupyter magenta 
+pip install jupyter tensorflowjs #magenta 
 
 # Install rtmidi for realtime midi IO
 if [[ $(which apt-get) ]]; then

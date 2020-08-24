@@ -4,8 +4,8 @@ const CONSTANTS = {
   NOTES_PER_OCTAVE : 12,
   WHITE_NOTES_PER_OCTAVE : 7,
   LOWEST_PIANO_KEY_MIDI_NOTE : 21,
-  GENIE_CHECKPOINT : 'https://storage.googleapis.com/magentadata/js/checkpoints/piano_genie/model/epiano/stp_iq_auto_contour_dt_166006',  
-
+  //GENIE_CHECKPOINT : 'https://storage.googleapis.com/magentadata/js/checkpoints/piano_genie/model/epiano/stp_iq_auto_contour_dt_166006',  
+  GENIE_CHECKPOINT : '../../../models/piano_genie',  
 }
 
 /*************************

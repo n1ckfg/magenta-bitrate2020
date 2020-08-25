@@ -2,7 +2,7 @@
 
 INPUT_DIR=/home/nick/GitHub/magenta-bitrate2020/source/nick_midi.tfrecord
 OUTPUT_DIR=output
-SCRIPT_PATH=magenta/models/melody_rnn/melody_rnn_train.py
+SCRIPT_PATH=/home/nick/GitHub/magenta/magenta/models/melody_rnn/melody_rnn_train.py
 
 conda activate magenta
 

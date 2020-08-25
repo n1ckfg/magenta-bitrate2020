@@ -249,3 +249,13 @@ class BaseSequenceGenerator(object):
     finally:
       if tempdir is not None:
         tf.gfile.DeleteRecursively(tempdir)
+
+# ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~ ~
+
+from magenta.models.melody_rnn import melody_rnn_model
+
+config = melody_rnn_model.default_configs["attention_rnn"]
+model = melody_rnn_model.MelodyRnnModel(config)
+
+gen = BaseSequenceGenerator(model=model, details=config.details, checkpoint="output/train/model.ckpt-20000", bundle=None)
+gen.create_bundle_file(bundle_file="nick_midi.mag", bundle_description=None)

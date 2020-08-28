@@ -18,8 +18,8 @@ class Player {
     this.midiIn = []
     this.usingMidiOut = false;
     this.usingMidiIn = false;
-    this.selectOutElement = document.getElementById('selectOut');
-    this.selectInElement = document.getElementById('selectIn');
+    //this.selectOutElement = document.getElementById('selectOut');
+    //this.selectInElement = document.getElementById('selectIn');
     this.loadAllSamples();
   }
   

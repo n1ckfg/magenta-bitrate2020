@@ -1,6 +1,6 @@
 # https://github.com/magenta/magenta/blob/master/README.md
 
-# 1. If you don't have Anaconda, it will be automatically installed by the Magenta scripts.
+# 1. If you don't have Anaconda, you can use the installer script provided.
 
 # 2. If you don't have CUDA, you can use the installer scripts provided.
 
